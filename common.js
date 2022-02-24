@@ -5,6 +5,10 @@
   
   var userDebug = true;
   
+  function getDebug() {
+    return userDebug;
+  };
+  
   function setDebug(status) {
     userDebug = status ? true : false;
   };
