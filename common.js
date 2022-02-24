@@ -15,6 +15,7 @@
       console.log(key + ': ' + msg) : console.log(msg);
   };
   
-  _global.saveAs = saveAs.saveAs = saveAs;
+  _global.setDebug = setDebug;
+  _global.debugMsg = debugMsg;
   
 })();
